@@ -10,7 +10,6 @@ function NewProject() {
 
     function createPost(project){
 
-        // incializando o cost  services 
 
         project.cost = 0
         project.services = []
@@ -24,7 +23,6 @@ function NewProject() {
         }).then((resp => resp.json())
         .then((data)=> {
             history.push('/projects', {message: 'Projeto criado com sucesso!'})
-            /* Linha inserida para teste : */
 
         })
         ).catch(err => console.log(err))
