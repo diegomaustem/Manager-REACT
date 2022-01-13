@@ -5,7 +5,6 @@ import styles from './NewProject.module.css'
 import ProjectForm from '../project/ProjectForm'
 
 function NewProject() {
-
     const history = useNavigate()
 
     function createPost(project){
