@@ -21,7 +21,7 @@ function ProjectCard( {id, name, budget, category, handlerRemove} ) {
                 <span className={`${styles[category.toLowerCase()]}`}></span>{category}
             </p>
             <div className={styles.project_card_actions}>
-                <Link to="/">
+                <Link to={`/project/${id}`}>
                     <bsPencil/> Editar
                 </Link>
                 <button onClick={remove}>
