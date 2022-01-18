@@ -7,8 +7,39 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 1600,
+      "services": [
+        {
+          "name": "Parteira",
+          "cost": "200",
+          "description": "Parto prematuro",
+          "id": "19fbc1e2-9288-4b5b-a05b-02834d731637"
+        },
+        {
+          "name": "Parteira",
+          "cost": "200",
+          "description": "Parto prematuro",
+          "id": "19fbc1e2-9288-4b5b-a05b-02834d731637"
+        },
+        {
+          "name": "Ana Campos",
+          "cost": "1000",
+          "description": "Cost Values",
+          "id": "80b57c3f-404b-4356-a27c-00ab1ab493c8"
+        },
+        {
+          "name": "Colheita de murici",
+          "cost": "100",
+          "description": "Colhendo murici nos matos",
+          "id": "5d700c3c-4ec9-4eca-bb7d-470cfd4ea1ee"
+        },
+        {
+          "name": "Colheita de murici",
+          "cost": "100",
+          "description": "Colhendo murici nos matos",
+          "id": "5d700c3c-4ec9-4eca-bb7d-470cfd4ea1ee"
+        }
+      ],
       "id": 1
     },
     {
